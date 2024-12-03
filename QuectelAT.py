@@ -73,7 +73,7 @@ class RM520N_GL:
         self.at_ser.write(b"AT+CSQ\r\n")
         sleep(0.05)
         ret_val = self.at_ser.read_all().decode()
-        print(ret_val)
+        #print(ret_val)
         signal = ret_val.split("\r\n")[1]
         signal_strenght = {}
         if signal.split(" ")[0] == "+CSQ:":
@@ -198,7 +198,6 @@ class RM520N_GL:
         sleep(0.05)
         ret_val = self.at_ser.read_all().decode()
         #print(ret_val)
-        print(ret_val)
         if len(old_pin) != 4 and en(new_pin) != 4:
             status = "WRONG OLD AND NEW PIN LENGTH"
         elif len(old_pin) != 4:
