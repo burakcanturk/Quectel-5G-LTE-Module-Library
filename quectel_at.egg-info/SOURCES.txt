@@ -1,6 +1,6 @@
 README.md
 setup.py
-QuectelAT/QuectelAT.py
+QuectelAT/__init__.py
 quectel_at.egg-info/PKG-INFO
 quectel_at.egg-info/SOURCES.txt
 quectel_at.egg-info/dependency_links.txt
