@@ -1,0 +1,8 @@
+README.md
+setup.py
+QuectelAT/QuectelAT.py
+quectel_at.egg-info/PKG-INFO
+quectel_at.egg-info/SOURCES.txt
+quectel_at.egg-info/dependency_links.txt
+quectel_at.egg-info/requires.txt
+quectel_at.egg-info/top_level.txt
