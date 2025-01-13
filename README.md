@@ -6,5 +6,5 @@ Thanks to[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=Gi
 
 ## Installation
 ```
-pip install your_project_name
+pip install quectel_at
 ```
