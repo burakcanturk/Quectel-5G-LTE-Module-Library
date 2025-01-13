@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="quectel_at",  # Projenizin adı (benzersiz olmalı)
-    version="1.0.1",  # Versiyon numarası
+    version="1.1.0",  # Versiyon numarası
     author="Burak Cantürk",
     author_email="burakcanturk12@gmail.com",
     description="This is a library for Quectel Modules.",
