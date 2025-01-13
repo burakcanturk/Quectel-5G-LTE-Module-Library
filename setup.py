@@ -1,8 +1,7 @@
 from setuptools import setup
+import os
 
-def parse_requirements(filename):
-    with open(filename, "r") as file:
-        return file.read().splitlines()
+print("Dosya yolu =", os.getcwd())
 
 setup(
     name="quectel_at",  # Projenizin adı (benzersiz olmalı)
@@ -14,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/burakcanturk/Quectel-5G-LTE-Module-Library.git",
     packages=["QuectelAT"],
-    install_requires=parse_requirements("requirements.txt"),  # Eğer dış bağımlılıklar varsa buraya ekleyin
+    install_requires=["pyserial"],  # Eğer dış bağımlılıklar varsa buraya ekleyin
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
