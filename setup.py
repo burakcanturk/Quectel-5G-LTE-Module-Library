@@ -1,8 +1,6 @@
 from setuptools import setup
 import os
 
-print("Dosya yolu =", os.getcwd())
-
 setup(
     name="quectel_at",  # Projenizin adı (benzersiz olmalı)
     version="1.1.0",  # Versiyon numarası
