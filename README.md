@@ -5,7 +5,7 @@ This is a library for Quectel Modules.
 
 ## Installation
 ```
-pip install quectel_at
+pip install quectel-at
 ```
 
 Thanks to[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=GitHub)](https://github.com/iXenonN) @iXenonN
